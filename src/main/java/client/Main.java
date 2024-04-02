@@ -8,9 +8,6 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.Socket;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
 
 
 public class Main {
@@ -29,7 +26,6 @@ public class Main {
                 .parse(argv);
         main.run();
     }
-
     public void run() {
         System.out.println("Client started!");
         String address = "127.0.0.1";
